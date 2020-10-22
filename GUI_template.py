@@ -149,3 +149,5 @@ if __name__ == "__main__":
     myWindow = WindowClass()
     myWindow.show()
     app.exec_()
+
+    # 대단해 태정쿤,,
