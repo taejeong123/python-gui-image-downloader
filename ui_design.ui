@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>491</width>
-    <height>390</height>
+    <height>421</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -344,7 +344,36 @@
     <string>Image Selector:</string>
    </property>
   </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>470</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
  </widget>
+ <tabstops>
+  <tabstop>txt_file</tabstop>
+  <tabstop>btn_browse_1</tabstop>
+  <tabstop>save_folder</tabstop>
+  <tabstop>btn_browse_2</tabstop>
+  <tabstop>site_url</tabstop>
+  <tabstop>img_selector</tabstop>
+  <tabstop>qs_keyword</tabstop>
+  <tabstop>qs_page</tabstop>
+  <tabstop>cnt_total</tabstop>
+  <tabstop>check_scroll</tabstop>
+  <tabstop>check_decode</tabstop>
+  <tabstop>check_headless</tabstop>
+  <tabstop>check_gpu</tabstop>
+  <tabstop>btn_start</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
